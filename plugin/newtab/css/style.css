@@ -1642,7 +1642,6 @@ body {
   font-size: 14px;
   overflow: auto;
 }
-.drawer.opened,
 .drawer .removeBtn {
   position: absolute;
   right: 0.5em;
