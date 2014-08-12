@@ -8,15 +8,15 @@ module.exports = function(grunt) {
         options: {
           compress: false
         },
-        src : ['newtab/stylus/*.styl'],
-        dest: 'newtab/css/style.css'
+        src : ['plugin/newtab/stylus/*.styl'],
+        dest: 'plugin/newtab/css/style.css'
       }
     },
     // CSS min化
     cssmin: {
       app: {
         files: {
-          'newtab/css/style.min.css': 'newtab/css/style.css'
+          'plugin/newtab/css/style.min.css': 'plugin/newtab/css/style.css'
         }
       }
     },
@@ -29,7 +29,7 @@ module.exports = function(grunt) {
         files: [
           {
             expand: true,
-            src: 'newtab/css/*.min.css',
+            src: 'plugin/newtab/css/*.min.css',
             ext: '.min.css.gz'
           }
         ]
@@ -40,7 +40,7 @@ module.exports = function(grunt) {
       // Stylus
       css: {
         // 監視ファイル
-        files: ['newtab/stylus/*.styl', 'newtab/stylus/**/*.styl'],
+        files: ['plugin/newtab/stylus/*.styl', 'plugin/newtab/stylus/**/*.styl'],
         // 実行タスク
         tasks: 'css',
         options: {
