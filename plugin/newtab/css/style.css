@@ -2131,7 +2131,7 @@ svg {
   line-height: 1.5;
 }
 .output-area h1 {
-  font-size: 170%;
+  font-size: 180%;
 }
 .output-area h2 {
   font-size: 160%;
@@ -2140,13 +2140,13 @@ svg {
   font-size: 140%;
 }
 .output-area h4 {
-  font-size: 130%;
+  font-size: 120%;
 }
 .output-area h5 {
-  font-size: 110%;
+  font-size: 100%;
 }
 .output-area h6 {
-  font-size: 100%;
+  font-size: 80%;
 }
 .output-area dt {
   font-weight: bold;
